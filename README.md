@@ -1,2 +1,2 @@
 # kmod-list-processes
-Kernel module that lists processes through sysfs
+Kernel module that lists processes through procfs
