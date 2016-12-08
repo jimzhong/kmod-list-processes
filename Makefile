@@ -12,3 +12,6 @@ clean:
 
 install:
 	$(MAKE) -C $(KDIR) M=$(PWD) modules_install
+
+program:
+	gcc -Wall main.c -o main
