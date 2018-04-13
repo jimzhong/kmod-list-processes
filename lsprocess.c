@@ -8,6 +8,7 @@ This source code is originally written by Jim Zhong and posted on GitHub
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
 #include <linux/sched.h>
+#include <linux/sched/signal.h>
 
 /*
 每个进程的名字、进程pid、进程的状态、父进程的名字
